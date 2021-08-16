@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/ubuntu
-FROM ubuntu:21.04
+FROM ubuntu:21.10
 
 MAINTAINER DQNEO
 
