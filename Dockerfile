@@ -9,5 +9,5 @@ RUN \
     && apt-get -y install tzdata \
     && apt-get -y install build-essential \
     && apt-get -y install less gdb strace \
-    && apt-get -y install file xxd \
+    && apt-get -y install file xxd bsdmainutils \
     && apt-get clean
