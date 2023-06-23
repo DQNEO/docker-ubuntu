@@ -1,6 +1,8 @@
 # Docker images to support low level programing
 
-the images are hosted here.
+These are docker images that I use for my compiler development or low level programing.
+
+The images are hosted here.
 
 https://hub.docker.com/r/dqneo
 
