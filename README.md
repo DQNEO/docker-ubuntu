@@ -17,3 +17,21 @@ Basic compiler tools on ubuntu`
 ## `dqneo/ubuntu-compiler-go`
 
 Basic compiler tools and `go` on ubuntu`
+
+# Usage
+
+```
+$ docker run --rm -it dqneo/ubuntu-go go version
+go version go1.20.5 linux/amd64
+```
+
+```
+$ cat > main.go <<EOF                                                                                
+package main
+import "fmt"
+func main() {fmt.Println("hello world")}
+EOF
+$ go mod init x
+$ docker run --rm -v `pwd`:/mnt/ -w /mnt dqneo/ubuntu-go go run .
+hello world
+```
