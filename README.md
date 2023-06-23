@@ -8,7 +8,7 @@ https://hub.docker.com/r/dqneo
 
 ## `dqneo/ubuntu-go`
 
-Latest `go` installed on ubuntu
+`go` installed on ubuntu
 
 ## `dqneo/ubuntu-compiler`
 
