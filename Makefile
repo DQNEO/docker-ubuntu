@@ -4,7 +4,7 @@ all: ubuntu-go ubuntu-compiler ubuntu-compiler-go
 
 # install go
 ubuntu-go: Dockerfile-go
-	docker build -t dqneo/$@:latest -f $< .
+	docker build --tag dqneo/$@:latest -f $< .
 	docker push     dqneo/$@:latest
 
 # install gcc related stuff
