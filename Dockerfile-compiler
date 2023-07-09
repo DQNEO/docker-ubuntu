@@ -7,5 +7,5 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN \
     apt-get -y update \
-    && apt install -y tzdata gcc make gdb strace less file xxd bsdmainutils curl \
+    && apt install -y tzdata gcc make gdb strace less file xxd bsdmainutils curl mold \
     && apt-get clean
